@@ -1,30 +1,30 @@
 #############################################################################
-#					Program writed for 78 characters lenght					#
+# Program writed for 78 characters lenght
 #############################################################################
-#   Usage: $0																#
-#																			#
-#	#Configuration															#
-#	[c] : 	Loads the especified configuration instead of the default one,	#
-#			if the especified configuration doesn't exist, it will load the #
-#			default values but when saved the configuration will be saved	#
-#			with the specified name.										#
-#																			#
-#	#Project																#
-#   -p [p] | --project=[p]	: Create a new project with name "p"			#
-#  	-i [p] | --import=[p]	: Import a project found on "p"					#
-#  	-e [p] | --share=[p]	: Share the project with name "p"				#
-#  	-l [p] | --load=[p]		: Load the project "p"							#
-#																			#
-#	#Arduino		 														#
-#	If board is selected it will try to upload to the board saved on the	#
-#	configuration file. So be careful if u have several boards connected.	#
-#																			#
-#   -b [b] | --board=[b]	: Select or create a board "b"					#
-#	-u [p] | --upload=[p]	: Upload project "p" to board "b"				#
-#	-s [b] | --status=[b]	: Display the status of board "b"				#
-#	-c [b] | --comm=[b]		: Command line to board "b"						#
-#																			#
-#   If no parameter is chosen, the program will run normaly loading config,	#
-#   these are mere shortcuts for the functions.								#
-#															(V) (;,,;) (V)	#
+#   Usage: $0
+#
+#	#Configuration
+#	[c] : 	Loads the especified configuration instead of the default one,
+#			if the especified configuration doesn't exist, it will load the
+#			default values but when saved the configuration will be saved
+#			with the specified name.
+#	
+#	#Project
+#   -p [p] | --project=[p]	: Create a new project with name "p"
+#  	-i [p] | --import=[p]	: Import a project found on "p"	
+#  	-e [p] | --share=[p]	: Share the project with name "p"
+#  	-l [p] | --load=[p]		: Load the project "p"
+#	
+#	#Arduino
+#	If board is selected it will try to upload to the board saved on the
+#	configuration file. So be careful if u have several boards connected.
+#	
+#   -b [b] | --board=[b]	: Select or create a board "b"
+#	-u [p] | --upload=[p]	: Upload project "p" to board "b"	
+#	-s [b] | --status=[b]	: Display the status of board "b"
+#	-c [b] | --comm=[b]		: Command line to board "b"
+#	
+#   If no parameter is chosen, the program will run normaly loading config,
+#   these are mere shortcuts for the functions.
+#															(V) (;,,;) (V)
 #############################################################################
